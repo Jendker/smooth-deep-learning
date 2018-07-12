@@ -540,9 +540,10 @@ def task_fourregion_quad_conv(args):
 
 if __name__ == "__main__":
 
-  # Uncomment one of the following lines and let the code run
-  # This is actually the same as using the arg parser from the command line
-  # For a description please use the help of the arg parser
+  # Uncomment one of the following lines and let the code run.
+  # This is the same as using the arg parser from the command line.
+  # For a list and explanation of possible arguments please refer to the help 
+  # of the arg parser
 
   # Trains a classifier in the large four region problem, takes around 30 minutes
   #args = parse_arguments("run_1 -t task_fourregion -n 2 10 10 4 -a 0.01 -rw -i 1000 -sp".split(" "))

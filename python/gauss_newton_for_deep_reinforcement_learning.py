@@ -865,9 +865,10 @@ def parse_arguments(*args, **kwargs):
 
 if __name__ == "__main__":
     
-  # Uncomment one of the following lines and let the code run
-  # This is actually the same as using the arg parser from the command line
-  # For a description please use the help of the arg parser
+  # Uncomment one of the following lines and let the code run.
+  # This is the same as using the arg parser from the command line.
+  # For a list and explanation of possible arguments please refer to the help 
+  # of the arg parser
 
   #--------------------------------------
   # Demonstration of Policy Iteration like algorithm 
