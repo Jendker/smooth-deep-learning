@@ -546,10 +546,11 @@ if __name__ == "__main__":
   # of the arg parser
 
   # Trains a classifier in the large four region problem, takes around 30 minutes
-  #args = parse_arguments("run_1 -t task_fourregion -n 2 10 10 4 -a 0.01 -rw -i 1000 -sp".split(" "))
+  # Regularisation must be stronger than default (1e-8)
+  args = parse_arguments("run_1 -t task_fourregion -n 2 10 10 4 -a 0.01 -rw -i 1000 -d 1e-5 -sp".split(" "))
 
   # Trains a classifier for the XOR prolem, very fast. Demonstrates the quadratic convergence.
-  args = parse_arguments("run_2 -t task_xor -n 2 4 2 1 -rw -a 1 -i 1000 -sp".split(" "))
+  #args = parse_arguments("run_2 -t task_xor -n 2 4 2 1 -rw -a 1 -i 1000 -sp".split(" "))
 
   # Trains a classifier for the 4 region prolem. Demonstrates the quadratic convergence.
   #args = parse_arguments("run_3 -t task_fourregion_quad_conv -n 2 10 10 4 -a 1 -rw -i 100 -sp".split(" "))
